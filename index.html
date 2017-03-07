@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Options with images</title>
+
+  <link rel="stylesheet" href="src/css/options-with-images.min.css">
+  <style>
+    .demo-block{
+      width: 25%;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    @media (max-width: 768px) {
+      .demo-block{
+        width: 80%;
+      }
+    }
+
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <header>
+    <h1>Select options with images</h1>
+  </header>
+
+  <section>
+    <p>Transform a simple unordered list (inspect the code) into this: </p>
+
+    <div class="demo-block">
+
+      <div class="js-options-with-images-container">
+        <select class="js-options-with-images" name="select-country" id="country">
+          <option data-img="img/mexico.png" value="mexico">Mexico</option>
+          <option data-img="img/eeuu.png" value="United States">United States</option>
+          <option data-img="img/canada.png" value="canada">Canada</option>
+        </select>
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+
+  <script src="src/js/resources/classListPolyfill.js"></script>
+  <script src="src/js/options-with-images.js"></script>
+  <script>
+    OptionsWithImages.init();
+  </script>
+
+</body>
+</html>
