@@ -1,0 +1,23 @@
+{
+  "name": "options-with-images",
+  "homepage": "https://github.com/luisbajana/options-with-images",
+  "authors": [
+    "Luis Bajana"
+  ],
+  "description": "Given a select markup get a dropdown menu with images",
+  "main": "index.html",
+  "keywords": [
+    "javascript",
+    "select",
+    "images",
+    "options"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
